@@ -1,0 +1,30 @@
+img{
+    width: 900px0;
+}
+
+.unordered-list{
+    list-style-type: circle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ordered-list{
+    list-style-image: url(images/marker-image.png);
+}
+
+ul,
+ol{
+    list-style-position: outside;
+}
+
+.ingredients li{
+    font-size: 18px;
+}
+
+header{
+    margin: 20px;
+    padding: 20px;
+}
+
+.ordered-list li {
+    background-color: #b4a183;
+}

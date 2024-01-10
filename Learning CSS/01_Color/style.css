@@ -1,0 +1,23 @@
+#main-heading{
+    color: blue;
+}
+
+#box{
+    background-color: yellow;
+}
+.intro-paragraph{
+    color: rgb(255, 99, 71);
+}
+p:last-child{
+    background-color: rgb(0, 128, 0, 0.3);
+}
+#main{
+    background-color: hsl(210, 100%, 50%);
+}
+.intro-paragraph{
+    color: #8a2be2;
+}
+
+#box{
+    color: coral;
+}

@@ -1,0 +1,81 @@
+/* Set background color */
+
+.product-card{
+    background-color: lightgray;
+}
+
+img{
+    width: 100%;
+}
+
+/* Add box shadow */
+
+.product-card{
+    box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply Rounded Corners */
+
+.product-card{
+    border-radius: 10px;
+}
+
+/* set fixed width and center align */
+
+.product-card{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Add margin */
+
+.product-card{
+    margin: 20px;
+}
+
+/* Increase font size and center align title */
+
+.product-title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Apply Border */
+
+.product-card{
+    border: 2px solid #3498db;
+}
+
+/* Add Padding */
+.product-card{
+    padding: 20px;
+}
+
+/* set max height with overflow */
+.product-descruption{
+    max-height: 80px;
+    overflow: auto;
+}
+
+/* Hide price and display hover */
+
+.product-price{
+    visibility: hidden;
+}
+
+.product-card:hover .product-price{
+    visibility: visible;
+}
+
+/* Use border image */
+
+.product-card {
+    border: 10px solid transparent;
+    border-image: url(images/border-image.png) 20 round;
+}
+
+/* Set min heigth */
+
+.product-card{
+    min-height: 300px;
+}

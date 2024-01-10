@@ -1,0 +1,42 @@
+header{
+    background-color: #f2f2f2;
+    width: 800px;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+.navbar{
+    background-color: #333;
+    padding: 10px;
+    border-bottom: 2px solid #555;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 40px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.main-title {
+font-size: 2rem;
+font-weight: bold;
+margin-top:  20px;
+margin-bottom: 10px;
+}
+
+.sub-title{
+    font-size: 1.2rem;
+    color: #666;
+    padding: 0 20px;
+}

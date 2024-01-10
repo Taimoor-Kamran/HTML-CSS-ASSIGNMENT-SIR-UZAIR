@@ -1,0 +1,48 @@
+/* Universal Selector */
+
+*{
+    color: gray;
+    background: lightgray;
+}
+
+/* Element Selector */
+
+h1 {
+    color: darkblue;
+    background-color: lightcyan;
+}
+
+/* ID Selector */
+
+#main-title {
+    color: darkred;
+    background-color: mistyrose;
+}
+
+/* Class Selector */
+
+.nav-link{
+    color: forestgreen;
+    background-color: lightyellow;
+}
+
+/* Desecndant Selector */
+
+.color-box p{
+    color: red;
+    background-color: lemonchiffon;
+}
+
+/* Child Selector */
+
+.color-box > p {
+    color: goldenrod;
+    background-color: ivory;
+}
+
+/* Adjacent Sibling Selector */
+
+.intro-paragraph + p {
+    color: black;
+    background-color: lightcyan;
+}
