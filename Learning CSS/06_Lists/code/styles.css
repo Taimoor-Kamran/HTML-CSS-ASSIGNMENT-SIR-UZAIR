@@ -25,6 +25,10 @@ header{
     padding: 20px;
 }
 
-.ordered-list li {
+.ordered-list li:nth-child(odd) {
     background-color: #b4a183;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
