@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin-top: 20px;
+            background: linear-gradient(to left, blue, red);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .box{
+            height: 90vh;
+            width: 40vw;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+        }
+        .box1{
+            height: 80vh;
+            width: 35vw;
+            margin: auto;
+            background-color: gray;
+            margin-top: 25px;
+            padding-top: 30px;
+        }
+        .header{
+            height: 60px;
+            width: 450px;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+            align-items: flex-end;
+        }
+        .nav{
+            border: 1px dotted black;
+            width: 440px;
+            height: 20px;
+            margin: auto;
+
+        }
+        .two{
+            height: 350px;
+            width: 300px;
+            border: 1px solid black;
+            margin: 20px 0px 0px 15px;
+            display: flex;
+            justify-content: end;
+            display: inline-block;
+        }
+        .aside{
+            height: 350px;
+            width: 120px;
+            margin-left: 25px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        .footer{
+            height: 30px;
+            width: 450px;
+            border: 1px solid black;
+            margin: 10px 0px 20px 15px;
+        }
+        .content1{
+            height: 130px;
+            width: 260px;
+            border: 1px dotted black;
+            margin: 20px;
+        }
+        .content2{
+            height: 130px;
+            width: 260px;
+            border: 1px dotted black;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <div class="header">
+                <div class="nav">
+                </div>
+            </div>
+            <div class="two">
+                <div class="content">
+                    <div class="content1"></div>
+                    <div class="content2"></div>
+                </div>
+            </div>
+            <div class="aside"></div>
+            <div class="footer"></div>
+        </div>
+    </div>
+</body>
+</html>

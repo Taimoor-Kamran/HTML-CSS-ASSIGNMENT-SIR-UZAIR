@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            height: 100vh;
+            width: 100vw;
+            border: 5px solid black;
+            margin: 50px;
+        }
+        .box > div {
+            column-gap: 100px; 
+            row-gap: 100px;
+            display: flex;  
+            margin-left: 50px;
+            margin-right: 50px;
+            row-gap: 10px;
+        }
+        .big{
+            width: 900px;
+            height: 120px;
+            background: green;
+            display: inline-block;
+            border: 5px solid black;
+        }
+        .small{
+            width: 100px;
+            height: 120px;
+            background: green;
+            border: 5px solid black;
+            display: inline-block;
+        }
+        .middle{
+            width: 200px;
+            height: 120px;
+            background: green;
+            border: 5px solid black;
+        }
+        .first{
+            justify-content: space-between;
+            margin-top: 45px;
+        }
+        .second{
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .third{
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .fourth{
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="first">
+            <div class="small"></div>
+            <div class="big"></div>
+            <div class="small"></div>
+        </div>
+        <div class="second">
+            <div class="big"></div>
+            <div class="small"></div>
+            <div class="middle"></div>
+        </div>
+        <div class="third">
+            <div class="small"></div>
+            <div class="middle"></div>
+            <div class="big"></div>
+        </div>
+        <div class="third">
+            <div class="middle"></div>
+            <div class="small"></div>
+            <div class="middle"></div>
+            <div class="small"></div>
+            <div class="middle"></div>
+        </div>
+    </div>
+</body>
+</html>
